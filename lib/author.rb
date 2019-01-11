@@ -11,7 +11,4 @@ attr_accessor :name, :posts
     @posts << post
     post.author = self
   end
-
-
-
 end
